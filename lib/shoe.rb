@@ -4,12 +4,12 @@ class Shoe
   attr_accessor :color, :size, :material, :condition
   attr_reader :brand
 
-BRANDS = []
+X = []
 
   def initialize(brand)
     @brand = brand
-    BRANDS << brand #unless BRANDS.include?(brand)
-    BRANDS = BRANDS.uniq 
+    X << brand #unless BRANDS.include?(brand)
+    BRANDS = X.uniq
 end
 
 
