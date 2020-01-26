@@ -17,9 +17,9 @@ end
     puts "Your shoe is as good as new!"
   end
   
-  def brands 
-    @brand = brands 
-     Brands << brands
+  def brand
+    @brand = brand
+     Brands << brand
      Brands.uniq
    end
 end
