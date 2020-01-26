@@ -19,6 +19,7 @@ end
   
   def brands 
     @brand = brands 
-     Brands << brands.uniq
+     Brands << brands
+     Brands.uniq
    end
 end
